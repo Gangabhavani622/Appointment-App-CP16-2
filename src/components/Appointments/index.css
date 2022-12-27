@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.appointment-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stared-btn {
+  background-color: transparent;
+  color: #9897f0;
+  border-color: #9897f0;
+  border-style: solid;
+  border-radius: 10px;
+}
